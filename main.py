@@ -14,3 +14,5 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+# After executing , Artifacts folder , zip file download , unzip of the file will happen
