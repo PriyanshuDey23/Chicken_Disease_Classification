@@ -39,3 +39,27 @@ except Exception as e:
 
 
 
+
+# src\Chicken_Disease_Classification\pipeline\stage_03_training.py
+
+from Chicken_Disease_Classification.pipeline.stage_03_training import ModelTrainingPipeline
+
+STAGE_NAME="Training Stage"
+try:
+    logger.info(f"Stage {STAGE_NAME} Started")
+    obj=ModelTrainingPipeline()  # Calling the class
+    obj.main()                           # Calling the main method,Start the data ingestion part
+    logger.info(f" Stage {STAGE_NAME} Completed")
+
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+
+# After executing we will  artifacts\training
+
+
+
+
+
+
