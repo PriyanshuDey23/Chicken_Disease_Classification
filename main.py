@@ -60,6 +60,29 @@ except Exception as e:
 
 
 
+#  src\Chicken_Disease_Classification\pipeline\stage_04_evaluation.py
+
+from Chicken_Disease_Classification.pipeline.stage_04_evaluation import EvaluationPipeline
+
+STAGE_NAME="Evaluation Stage"
+try:
+    logger.info(f"Stage {STAGE_NAME} Started")
+    obj=EvaluationPipeline()  # Calling the class
+    obj.main()                           # Calling the main method,Start the data ingestion part
+    logger.info(f" Stage {STAGE_NAME} Completed")
+
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+# After executing scores.json created
+
+
+
+
+
+
+
 
 
 
