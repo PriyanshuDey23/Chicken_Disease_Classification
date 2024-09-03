@@ -23,7 +23,7 @@ except Exception as e:
 
 from Chicken_Disease_Classification.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 
-STAGE_NAME="Data Base Model Stage"
+STAGE_NAME="Prepare Base Model Stage"
 try:
     logger.info(f"Stage {STAGE_NAME} Started")
     obj=PrepareBaseModelTrainingPipeline()  # Calling the class
