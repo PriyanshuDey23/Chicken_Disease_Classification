@@ -24,8 +24,8 @@ class PrepareBaseModelConfig:
     params_weights: str
     params_classes: int
 
-# Prepare CallBacks
 
+# Prepare CallBacks
 @dataclass(frozen=True)
 class PrepareCallbacksConfig:
     root_dir: Path
@@ -33,7 +33,6 @@ class PrepareCallbacksConfig:
     checkpoint_model_filepath: Path
 
 # Training
-
 @dataclass(frozen=True)
 class TrainingConfig:
     root_dir: Path
@@ -48,7 +47,6 @@ class TrainingConfig:
 
 
 # Evaluation
-
 @dataclass(frozen=True)
 class EvaluationConfig:
     path_of_model: Path
