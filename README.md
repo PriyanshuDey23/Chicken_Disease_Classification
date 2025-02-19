@@ -1,5 +1,9 @@
 # 🐔 Chicken Disease Classification
 
+
+![Chicken Disease Classification](https://raw.githubusercontent.com/PriyanshuDey23/Chicken_Disease_Classification/main/output.jpg)
+
+
 ## 📌 Project Overview
 The **Chicken Disease Classification** project aims to predict whether a chicken is **Healthy** or affected by **Coccidiosis** using deep learning techniques. This model leverages **VGG16** in **Keras** for high-accuracy image classification.
 
